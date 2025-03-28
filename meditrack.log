@@ -1,0 +1,17 @@
+2025-03-28 12:52:56,042 - __main__ - INFO - Starting MediTrack Healthcare Management System
+2025-03-28 12:56:25,770 - db.repository - ERROR - Error creating entity: (psycopg2.errors.UndefinedTable) relation "persons" does not exist
+LINE 1: INSERT INTO persons (first_name, last_name, email, phone, do...
+                    ^
+
+[SQL: INSERT INTO persons (first_name, last_name, email, phone, dob, address, type) VALUES (%(first_name)s, %(last_name)s, %(email)s, %(phone)s, %(dob)s, %(address)s, %(type)s) RETURNING persons.id]
+[parameters: {'first_name': 'Chiwetel', 'last_name': 'Ejiofor', 'email': 'chiwejio@yahoo.org', 'phone': '333-555-6789', 'dob': datetime.date(1985, 1, 15), 'address': None, 'type': 'patient'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-03-28 13:16:10,476 - __main__ - INFO - Starting MediTrack Healthcare Management System
+2025-03-28 13:20:02,733 - db.repository - ERROR - Error creating entity: (psycopg2.errors.UndefinedTable) relation "persons" does not exist
+LINE 1: INSERT INTO persons (first_name, last_name, email, phone, do...
+                    ^
+
+[SQL: INSERT INTO persons (first_name, last_name, email, phone, dob, address, type) VALUES (%(first_name)s, %(last_name)s, %(email)s, %(phone)s, %(dob)s, %(address)s, %(type)s) RETURNING persons.id]
+[parameters: {'first_name': 'Rodrigo', 'last_name': 'Russo', 'email': 'rodrus@jpeg.org', 'phone': '123-456-7890', 'dob': datetime.date(1234, 12, 12), 'address': None, 'type': 'patient'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-03-28 13:56:23,469 - __main__ - INFO - Starting MediTrack Healthcare Management System
